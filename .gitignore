@@ -71,3 +71,6 @@ ehthumbs.db
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Node.js dependencies
+node_modules/
