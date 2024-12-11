@@ -4,6 +4,15 @@
 
 This is the backend part of a pet products online store project. It implements a REST API for managing categories, products, and orders.
 
+## Technologies used
+
+- Node.js
+- Express
+- Sequelize
+- SQLite
+- Cors
+- Axios
+
 ## Project structure
 
 - `/database`
@@ -110,12 +119,3 @@ axios.post('http://localhost:3333/order/send', orderData, {
     console.error(error);
   });
 ```
-
-## Technologies used
-
-- Node.js
-- Express
-- Sequelize
-- SQLite
-- Cors
-- Axios
